@@ -1,0 +1,4 @@
+nfq_web:
+    resource: "@NfqWebBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,8 @@
+{
+  "name": "nfqakademija/symfony-grunt-demo",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "jquery": "1.11.1"
+  }
+}

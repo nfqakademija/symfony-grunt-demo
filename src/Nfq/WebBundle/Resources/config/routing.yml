@@ -1,0 +1,3 @@
+nfq_web_homepage:
+    path:     /
+    defaults: { _controller: NfqWebBundle:Default:index }
