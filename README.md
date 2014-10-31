@@ -7,7 +7,8 @@ Demonstration of Symfony application with Grunt integrated into it.
 
   * NodeJS with NPM
     * `sudo apt-get install nodejs` on Debian based systems
-    * Use [Installers from nodejs.org](http://nodejs.org/download/) on Mac OS X and Windows
+    * Use [Installer from nodejs.org](http://nodejs.org/download/) on Windows
+    * `brew install node` on Mac OS X
   * Globally installed Grunt-CLI and Bower packages via NPM
     * `sudo npm install -g grunt-cli bower`
   * Ruby
