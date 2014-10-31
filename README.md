@@ -22,3 +22,31 @@ Demonstration of Symfony application with Grunt integrated into it.
 
   * `npm install` to install node packages which are defined in package.json file
   * `bower install` to install bower components which are defined in package.json file
+
+## FAQ
+
+### What changes were made to Symfony Standard Edition?
+
+We have removed *assetic-bundle* from `composer.json` file as we are no longer using this. As well as we have removed all assetic related configuration from config.yml.
+
+Also what is worth looking at is how we modified `app/Resources/views/base.yml.twig`
+
+### Explain new lines in .gitignore
+
+```
+/web/css/
+/web/js/
+/web/fonts/
+/web/img/
+```
+
+Those are compiled assets directories. We only want to version the source.
+
+```
+/node_modules/
+/bower_components/
+```
+
+Those directories contain packages downloaded from npm and bower.
+
+And `/.sass-cache/` is a cache saved at compilation from compass which shouldn't be versioned aswell.
